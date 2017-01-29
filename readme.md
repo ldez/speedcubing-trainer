@@ -4,4 +4,9 @@
 
 Under contruction.
 
-http://ldez.github.io/speedcubing-trainer
+- http://ldez.github.io/speedcubing-trainer
+
+References:
+
+- http://cube.crider.co.uk/visualcube.php
+- https://www.speedsolving.com/wiki/index.php/First_Two_Layerss
