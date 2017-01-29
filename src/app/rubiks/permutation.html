@@ -1,8 +1,14 @@
 <div class="tech">
-  <img class="tech-logo" ng-src="http://cube.crider.co.uk/visualcube.php?fmt=svg&size=150&pzl=3&stage=f2l&case={{ $ctrl.permutation.case }}"/>
+
+  <span class="tech-logo">{{ $ctrl.permutation.category }} {{ $ctrl.permutation.id }}</span>
   <h3 class="tech-h3">
-    {{ $ctrl.permutation.category }} {{ $ctrl.permutation.id }}
+    <img ng-src="http://cube.crider.co.uk/visualcube.php?fmt=svg&size=150&pzl=3&stage=f2l&case={{ $ctrl.permutation.case }}" alt="{{ $ctrl.permutation.category }} {{ $ctrl.permutation.id }}" />
   </h3>
+
+  <ul>
+    <li ng-repeat="move in $ctrl.permutation.moves">{{ move }}</li>
+  </ul>
+
   <!-- <p>White face:
     <span>{{ $ctrl.permutation.white_face.layer }}</span>
     <span>{{ $ctrl.permutation.white_face.orientation }}</span>
@@ -12,5 +18,5 @@
     <span>{{ $ctrl.permutation.edge.position }}</span>
     <span>{{ $ctrl.permutation.edge.sameColor }}</span>
   </p> -->
-  <p ng-repeat="move in $ctrl.permutation.moves">{{ move }}</p>
+
 </div>
