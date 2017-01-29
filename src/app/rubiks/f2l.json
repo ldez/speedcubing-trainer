@@ -1,0 +1,961 @@
+[{
+    "id": 1,
+    "category": "F2L",
+    "name": "F2L 1",
+    "moves": [
+      "U (R U' R')",
+      "R' F R F'",
+      "U2 (R U2 R')"
+    ],
+    "white_face": {
+      "layer": "U",
+      "orientation": "F"
+    },
+    "edge": {
+      "layer": "U",
+      "position": "R",
+      "sameColor": true
+    },
+    "case": "URU'R'"
+  },
+  {
+    "id": 2,
+    "category": "F2L",
+    "name": "F2L 2",
+    "moves": [
+      "y' U' (R' U R)",
+      "U' (F' U F)",
+      "F R' F' R",
+      "d' L' U L",
+      "r U R' U' M",
+      "(U2) l R U' R' U l'",
+      "(U2) l2 F' l' U l'",
+      "(U') F R' F' R2 U' R'"
+    ],
+    "white_face": {
+      "layer": "U",
+      "orientation": "R"
+    },
+    "edge": {
+      "layer": "U",
+      "position": "F",
+      "sameColor": true
+    },
+    "case": "U'F'UF"
+  },
+  {
+    "id": 3,
+    "category": "F2L",
+    "name": "F2L 3",
+    "moves": [
+      "y' (R' U' R)",
+      "y (L' U' L)",
+      "F' U' F",
+      "U M R U' R' U M'",
+      "U r' R2 U' R' U M'"
+    ],
+    "white_face": {
+      "layer": "U",
+      "orientation": "F"
+    },
+    "edge": {
+      "layer": "U",
+      "position": "L",
+      "sameColor": false
+    },
+    "case": "F'U'F",
+    "cases": "UMRU'R'UM'"
+  },
+  {
+    "id": 4,
+    "category": "F2L",
+    "name": "F2L 4",
+    "moves": [
+      "(R U R')",
+      "(U2) L (R U' R') U L'"
+    ],
+    "white_face": {
+      "layer": "U",
+      "orientation": "R"
+    },
+    "edge": {
+      "layer": "U",
+      "position": "B",
+      "sameColor": false
+    },
+    "case": "RUR'"
+  },
+  {
+    "id": 5,
+    "category": "F2L",
+    "name": "F2L 5",
+    "moves": [
+      "(U' R U R') U2 (R U' R')",
+      "(U' R U R') U (R' F R F')",
+      "F2 (L' U' L U) F2",
+      "L U' R U L' R' U2 R U' R'",
+      "U' (R U R') U' R U2 R'"
+    ],
+    "white_face": {
+      "layer": "U",
+      "orientation": "F"
+    },
+    "edge": {
+      "layer": "U",
+      "position": "B",
+      "sameColor": true
+    },
+    "case": "U'RUR'U2RU'R'"
+  },
+  {
+    "id": 6,
+    "category": "F2L",
+    "name": "F2L 6",
+    "moves": [
+      "d (R' U' R) U2' (R' U R)",
+      "y' (U R' U' R) U2 (R' U R)",
+      "y' (U R' U' R) U' y (F R' F' R)",
+      "U' (r U' R' U) (R U r')",
+      "R2 (B U B' U') R2",
+      "y F2 (R U R' U') F2"
+    ],
+    "white_face": {
+      "layer": "U",
+      "orientation": "R"
+    },
+    "edge": {
+      "layer": "U",
+      "position": "L",
+      "sameColor": true
+    },
+    "case": "R2BUB'U'R2"
+  },
+  {
+    "id": 7,
+    "category": "F2L",
+    "name": "F2L 7",
+    "moves": [
+      "U' (R U2' R') U2 (R U' R')",
+      "U' R U2 R' U' R U2 R'",
+      "M' U' M U2 r U' r'",
+      "R U B U2 B' U R'"
+    ],
+    "white_face": {
+      "layer": "U",
+      "orientation": "F"
+    },
+    "edge": {
+      "layer": "U",
+      "position": "L",
+      "sameColor": true
+    },
+    "case": "U'RU2'R'U2RU'R'"
+  },
+  {
+    "id": 8,
+    "category": "F2L",
+    "name": "F2L 8",
+    "moves": [
+      "d (R' U2 R) U2' (R' U R)",
+      "y' U (R' U2 R) U2 (R' U R)",
+      "(r' U2) (R2 U R2 U r)",
+      "y' R' U' F' U2 F U' R"
+    ],
+    "white_face": {
+      "layer": "U",
+      "orientation": "R"
+    },
+    "edge": {
+      "layer": "U",
+      "position": "B",
+      "sameColor": true
+    },
+    "case": "r'U2R2UR2Ur"
+  },
+  {
+    "id": 9,
+    "category": "F2L",
+    "name": "F2L 9",
+    "moves": [
+      "U' R U' R' d R' U' R",
+      "d (R' U' R U') (R' U' R)",
+      "y2 U' (L U' L') d (L' U' L)",
+      "U r U R' U' R2 r' U' R'",
+      "U' R U' R' U2 M R U' R' U M'",
+      "F (R U R' U') F' R U' R'",
+      "(U F' U' F) U' (F' U' F)",
+      "y F2 (U R U' R') F2"
+    ],
+    "white_face": {
+      "layer": "U",
+      "orientation": "F"
+    },
+    "edge": {
+      "layer": "U",
+      "position": "B",
+      "sameColor": false
+    },
+    "case": "UrUR'U'R2r'U'R'"
+  },
+  {
+    "id": 10,
+    "category": "F2L",
+    "name": "F2L 10",
+    "moves": [
+      "U' (R U R' U)(R U R')",
+      "R d' R U R' U2 F'",
+      "U F' U F U' R U R'",
+      "d R' U R d' R U R'",
+      "y2 B2 (U' R' U R) B2"
+    ],
+    "white_face": {
+      "layer": "U",
+      "orientation": "R"
+    },
+    "edge": {
+      "layer": "U",
+      "position": "L",
+      "sameColor": false
+    },
+    "case": "U'RUR'URUR'"
+  },
+  {
+    "id": 11,
+    "category": "F2L",
+    "name": "F2L 11",
+    "moves": [
+      "U' (R U2' R') d (R' U' R)",
+      "(y) L' d L' U2 L U2 F",
+      "U' R U2 R' U2 M R U' R' U M'",
+      "U (F R' F' R)2 U' R U R'",
+      "(y') R U2 R2 U' R2 U' R'",
+      "U' l F U' R U l' U R'"
+    ],
+    "white_face": {
+      "layer": "U",
+      "orientation": "F"
+    },
+    "edge": {
+      "layer": "U",
+      "position": "R",
+      "sameColor": false
+    },
+    "case": "yL'dL'U2LU2F"
+  },
+  {
+    "id": 12,
+    "category": "F2L",
+    "name": "F2L 12",
+    "moves": [
+      "R U' R' U R U' R' U2 R U' R'",
+      "d (R' U2 R) d' (R U R')",
+      "R U2 R' U2' R U2' R' U2' R U' R'",
+      "R' U2 R2 U R2 U R",
+      "y (F U') (R U2 R' U2') F'",
+      "(U R U' R') U' (R U R' U') (R U R')"
+    ],
+    "white_face": {
+      "layer": "U",
+      "orientation": "R"
+    },
+    "edge": {
+      "layer": "U",
+      "position": "F",
+      "sameColor": false
+    },
+    "case": "RU'R'URU'R'U2RU'R'"
+  },
+  {
+    "id": 13,
+    "category": "F2L",
+    "name": "F2L 13",
+    "moves": [
+      "d (R' U R U') (R' U' R)",
+      "y' U (R' U R U') (R' U' R)",
+      "(U F' U F) U' (F' U' F)",
+      "M' U' (R U R') U' (R U2 r')",
+      "(R U' R') U (R' F R F') (R U' R')",
+      "(R U R') d' (L' U' L U) (L' U' L)",
+      "(R U' R' U2) (R U' l U' R' U l')"
+    ],
+    "white_face": {
+      "layer": "U",
+      "orientation": "F"
+    },
+    "edge": {
+      "layer": "U",
+      "position": "F",
+      "sameColor": false
+    },
+    "case": "UF'UFU'F'U'F"
+  },
+  {
+    "id": 14,
+    "category": "F2L",
+    "name": "F2L 14",
+    "moves": [
+      "U' (R U' R' U) (R U R')",
+      "d' F U' F' d R U R'"
+    ],
+    "white_face": {
+      "layer": "U",
+      "orientation": "R"
+    },
+    "edge": {
+      "layer": "U",
+      "position": "R",
+      "sameColor": false
+    },
+    "case": "U'RU'R'URUR'"
+  },
+  {
+    "id": 15,
+    "category": "F2L",
+    "name": "F2L 15",
+    "moves": [
+      "M U L F' L' U' M'",
+      "R B L U' L' B' R'",
+      "U (R' F R F') U (R U R')",
+      "y' (R' U R U') d' (R U R')",
+      "y (L' U L) U2 y' (R U R')",
+      "R U2 R' U R U R' U R U' R'",
+      "R U R' U2 R U' R' U R U' R'",
+      "R U' R U2' R2' U' R2 U' R2'",
+      "U' R2 U2 R U' R' U R' U2 R2",
+      "U2 (R U R' U') R U2 R' U R U R'",
+      "(R U' R' U) d (R' U' R)",
+      "(R U' R') U2 (F' U' F)",
+      "(U') (R U2 M' U' R' U) (R U r')",
+      "(U) R (F R U R' U' F') R'",
+      "(U) M' (U R U' r') (U' R U R')",
+      "y' U R U2 R U' R U R' U2 R'",
+      "y M U' R' F R U M' y'"
+    ],
+    "white_face": {
+      "layer": "U",
+      "orientation": "F"
+    },
+    "edge": {
+      "layer": "U",
+      "position": "F",
+      "sameColor": true
+    },
+    "case": "MULF'L'U'M'"
+  },
+  {
+    "id": 16,
+    "category": "F2L",
+    "name": "F2L 16",
+    "moves": [
+      "(R U' R' U) d (R' U' R)",
+      "(R U' R') U2 (F' U' F)",
+      "(U') (R U2 M' U' R' U) (R U r')",
+      "(U) R (F R U R' U' F') R'",
+      "(U) M' (U R U' r') (U' R U R')",
+      "y' U R U2 R U' R U R' U2 R'",
+      "y M U' R' F R U M' y"
+    ],
+    "white_face": {
+      "layer": "U",
+      "orientation": "R"
+    },
+    "edge": {
+      "layer": "U",
+      "position": "R",
+      "sameColor": true
+    },
+    "case": "(R U' R') U2 (F' U' F)"
+  },
+  {
+    "id": 17,
+    "category": "F2L",
+    "name": "F2L 17",
+    "moves": [
+      "(R U2 R') U' (R U R')"
+    ],
+    "white_face": {
+      "layer": "U",
+      "orientation": "U"
+    },
+    "edge": {
+      "layer": "U",
+      "position": "R",
+      "sameColor": false
+    },
+    "case": "RU2R'U'RUR'"
+  },
+  {
+    "id": 18,
+    "category": "F2L",
+    "name": "F2L 18",
+    "moves": [
+      "y' (R' U2 R) U (R' U' R)",
+      "y (L' U2 L) U (L' U' L)",
+      "(R U R' U') R U2 R' U y (L' U L)",
+      "(R U R' U') (R U R' U') F R' F' R",
+      "F' U2 F U F' U' F",
+      "(R' F R F') (R U' R' U) (R U' R')"
+    ],
+    "white_face": {
+      "layer": "U",
+      "orientation": "U"
+    },
+    "edge": {
+      "layer": "U",
+      "position": "F",
+      "sameColor": false
+    },
+    "case": "F'U2FUF'U'F"
+  },
+  {
+    "id": 19,
+    "category": "F2L",
+    "name": "F2L 19",
+    "moves": [
+      "U R U2 R2 (F R F')",
+      "U (R U2 R') U (R U' R')",
+      "(R U' R' U)2 R U R'",
+      "(R U2 R' U') U' (R U' R' U)(R U R')"
+    ],
+    "white_face": {
+      "layer": "U",
+      "orientation": "U"
+    },
+    "edge": {
+      "layer": "U",
+      "position": "B",
+      "sameColor": false
+    },
+    "case": "URU2R2FRF'"
+  },
+  {
+    "id": 20,
+    "category": "F2L",
+    "name": "F2L 20",
+    "moves": [
+      "U' F' U2 F2 (R' F' R)",
+      "y' U' (R' U2 R) U' (R' U R)",
+      "y2 d' (R' U2 R) U' (R' U R)",
+      "U' (R U R' U) (F' L' U2 L F)",
+      "U' (R U' R2' F R F') (R U' R')",
+      "y' (R' U R U')2 R' U' R",
+      "U' (R U' R' U) (R U') (l U' R' U l')",
+      "d' L' U2 L U' L' U L"
+    ],
+    "white_face": {
+      "layer": "U",
+      "orientation": "U"
+    },
+    "edge": {
+      "layer": "U",
+      "position": "L",
+      "sameColor": true
+    },
+    "case": "U'F'U2F2R'F'R"
+  },
+  {
+    "id": 21,
+    "category": "F2L",
+    "name": "F2L 21",
+    "moves": [
+      "(R U' R') U2 (R U R')",
+      "U2 (R U R' U)(R U' R')",
+      "R B U2 B' R'",
+      "U2 R x' U' R U x R2'",
+      "U F R U R' U' R' F' R"
+    ],
+    "white_face": {
+      "layer": "U",
+      "orientation": "U"
+    },
+    "edge": {
+      "layer": "U",
+      "position": "L",
+      "sameColor": false
+    },
+    "case": "RU'R'U2RUR'"
+  },
+  {
+    "id": 22,
+    "category": "F2L",
+    "name": "F2L 22",
+    "moves": [
+      "y' (R' U R) U2 (R' U' R)",
+      "F' L' U2 L F",
+      "y' U2 (R' U' R U') (R' U R)",
+      "y2 U' d' (R' U' R U') (R' U R)",
+      "r U' r' U2 r U r'",
+      "U F R U R' U' F' R U R' U2'",
+      "d2 y' R' U' R U' R' U R"
+    ],
+    "white_face": {
+      "layer": "U",
+      "orientation": "U"
+    },
+    "edge": {
+      "layer": "U",
+      "position": "B",
+      "sameColor": true
+    },
+    "case": "F'L'U2LF"
+  },
+  {
+    "id": 23,
+    "category": "F2L",
+    "name": "F2L 23",
+    "moves": [
+      "U2 R2 U2 (R' U' R U') R2",
+      "U (F R' F' R) U (R U R')",
+      "U R U' R' U' R U' R' U R U' R'",
+      "(R U R' U') U' (R U R' U')(R U R')",
+      "(R U2 R') (F' U F) U' (R U R')"
+    ],
+    "white_face": {
+      "layer": "U",
+      "orientation": "U"
+    },
+    "edge": {
+      "layer": "U",
+      "position": "F",
+      "sameColor": true
+    },
+    "case": "U2R2U2R'U'RU'R2"
+  },
+  {
+    "id": 24,
+    "category": "F2L",
+    "name": "F2L 24",
+    "moves": [
+      "U F' L' U L F R U R'",
+      "(R U R') d (R' U R U') (R' U R)",
+      "y' (R' U' R U) U (R' U' R U)(R' U' R)",
+      "y' U2 R2 U2 (R U R' U) R2",
+      "U' (R U) (R2' F R F') (R U' R')",
+      "U' (R U R' U) (R U') (l U' R' U l')",
+      "U2 F2 U2 (F U F' U) F2",
+      "F U (R U' R' F')(R U' R')",
+      "d' (F' L F L') U' (L' U' L)",
+      "y (L' U' L U) U (L' U' L U)(L' U' L )"
+    ],
+    "white_face": {
+      "layer": "U",
+      "orientation": "U"
+    },
+    "edge": {
+      "layer": "U",
+      "position": "R",
+      "sameColor": true
+    },
+    "case": "UF'L'ULFRUR'"
+  },
+  {
+    "id": 25,
+    "category": "F2L",
+    "name": "F2L 25",
+    "moves": [
+      "d' (L' U L) d (R U' R')",
+      "d' (L' U L) (F' L F L')",
+      "y U' (L' U' L) U (F U F')",
+      "U' (F' U F) U (R U' R')",
+      "U' M' U R U' r' (R U R')",
+      "R U2 R' U R U2 R' U2 R U' R'",
+      "R U R' U2 R U R' U2 R U' R'",
+      "R' F' R U R U' R' F",
+      "(U') F' R U R' U' R' F R",
+      "(R U' R' U') (R U' R' U) (R U R')",
+      "y' (l' U' l U) (l F' l' F)",
+      "(U) (R' U' R' U') R2 (U R U R)",
+      "y U R' u' R U' R' U u R",
+      "U' (R' F R F') (R U R')",
+      "R2 U' R' U R2",
+      "U D' R U' R' D"
+    ],
+    "white_face": {
+      "layer": "D",
+      "orientation": "D"
+    },
+    "edge": {
+      "layer": "U",
+      "position": "R",
+      "sameColor": true
+    },
+    "case": "d'L'ULdRU'R'"
+  },
+  {
+    "id": 26,
+    "category": "F2L",
+    "name": "F2L 26",
+    "moves": [
+      "U (R U' R') d' (L' U L)",
+      "U (R U' R') U' (F' U F)",
+      "U (R U' R') (F R' F' R)",
+      "U R U (r' R U' R' U M')",
+      "U R U' M' U R' U' M",
+      "r U r' U2 r U r' U2 r U' r'",
+      "y (r U r' U') (r' F r F')",
+      "y U (L F' L' F) (L' U' L)"
+    ],
+    "white_face": {
+      "layer": "D",
+      "orientation": "D"
+    },
+    "edge": {
+      "layer": "U",
+      "position": "F",
+      "sameColor": true
+    },
+    "case": "URU'R'U'F'UF"
+  },
+  {
+    "id": 27,
+    "category": "F2L",
+    "name": "F2L 27",
+    "moves": [
+      "(R U' R' U)(R U' R')",
+      "(R U' R2)(F R F')",
+      "F' U' F U2 (R U' R')"
+    ],
+    "white_face": {
+      "layer": "D",
+      "orientation": "F"
+    },
+    "edge": {
+      "layer": "U",
+      "position": "R",
+      "sameColor": false
+    },
+    "case": "RU'R'URU'R'"
+  },
+  {
+    "id": 28,
+    "category": "F2L",
+    "name": "F2L 28",
+    "moves": [
+      "(R U R' U') F R' F' R",
+      "(R U R') d (R' U2 R)",
+      "y' (R' U R U')(R' U R)",
+      "(R U R') U (F' U2 F)",
+      "R U2 l U' R' U l'",
+      "(R U R') U l2 F' l' U l'",
+      "(F' U F2)(R' F' R)",
+      "(U2) R' F R F2 L' U2 L F",
+      "(R U' R') U' (R' F R F') (R U' R')"
+    ],
+    "white_face": {
+      "layer": "D",
+      "orientation": "R"
+    },
+    "edge": {
+      "layer": "U",
+      "position": "F",
+      "sameColor": false
+    },
+    "case": "RUR'U'FR'F'R"
+  },
+  {
+    "id": 29,
+    "category": "F2L",
+    "name": "F2L 29",
+    "moves": [
+      "y' (R' U' R U)(R' U' R)",
+      "U2 (R U' R') y' (R' U' R)",
+      "(R' F R F')(R' F R F')",
+      "M' U R U' r' U (R U' R')"
+    ],
+    "white_face": {
+      "layer": "D",
+      "orientation": "F"
+    },
+    "edge": {
+      "layer": "U",
+      "position": "F",
+      "sameColor": true
+    },
+    "case": "R'FRF'R'FRF'"
+  },
+  {
+    "id": 30,
+    "category": "F2L",
+    "name": "F2L 30",
+    "moves": [
+      "(R U R' U')(R U R')",
+      "U2 (F' U F)(R U R')",
+      "U' (R U2 R')U2 (R U R')"
+    ],
+    "white_face": {
+      "layer": "D",
+      "orientation": "R"
+    },
+    "edge": {
+      "layer": "U",
+      "position": "R",
+      "sameColor": true
+    },
+    "case": "RUR'U'RUR'"
+  },
+  {
+    "id": 31,
+    "category": "F2L",
+    "name": "F2L 31",
+    "moves": [
+      "(R U' R') d (R' U R)",
+      "(R U' R' U)(F' U F)",
+      "U' R' F R F' R U' R'",
+      "R U' l U' R' U l'",
+      "F2 r U r' F R U' R'",
+      "R U2 R' U' F R' F' R",
+      "R U' R B' R' B R'"
+    ],
+    "white_face": {
+      "layer": "U",
+      "orientation": "U"
+    },
+    "edge": {
+      "layer": "E",
+      "position": "",
+      "sameColor": true
+    },
+    "case": "RU'R'UF'UF"
+  },
+  {
+    "id": 32,
+    "category": "F2L",
+    "name": "F2L 32",
+    "moves": [
+      "(R U R' U')(R U R' U')(R U R')",
+      "(U R U' R')(U R U' R')(U R U' R')",
+      "U2 R d' R U R' d R'",
+      "U R d' R U2 R' d R'",
+      "R2 U R2 U R2 U2 R2",
+      "U2 R2 U2 R2 U' R2 U' R2",
+      "(R U2 R') (F' U2 F) U' (R U R')"
+    ],
+    "white_face": {
+      "layer": "U",
+      "orientation": "U"
+    },
+    "edge": {
+      "layer": "E",
+      "position": "",
+      "sameColor": false
+    },
+    "case": "RUR'U'RUR'U'RUR'"
+  },
+  {
+    "id": 33,
+    "category": "F2L",
+    "name": "F2L 33",
+    "moves": [
+      "U' (R U' R') U2' (R U' R')",
+      "y U' L' U' R' U L U' R",
+      "(U' R U' R') U2 (R U' R')",
+      "y U' (L' U' L) U2 (L' U' L)",
+      "U y F U R U R' U' R U' R' F'",
+      "(U' F' U' F) U2 (F' U' F)",
+      "y' U' R D R' U R D' R'"
+    ],
+    "white_face": {
+      "layer": "U",
+      "orientation": "F"
+    },
+    "edge": {
+      "layer": "E",
+      "position": "",
+      "sameColor": true
+    },
+    "case": "U'RU'R'U2'RU'R'"
+  },
+  {
+    "id": 34,
+    "category": "F2L",
+    "name": "F2L 34",
+    "moves": [
+      "U (F' U F) U2 (F' U F)",
+      "U' (R U2' R') U (R U R')",
+      "U (R U R') U2 (R U R')",
+      "d (R' U R) U2 (R' U R)",
+      "y (U L' U L) U2 (L' U L)",
+      "U y F U2 R U2 R' F'"
+    ],
+    "white_face": {
+      "layer": "U",
+      "orientation": "R"
+    },
+    "edge": {
+      "layer": "E",
+      "position": "",
+      "sameColor": true
+    },
+    "case": "UF'UFU2F'UF"
+  },
+  {
+    "id": 35,
+    "category": "F2L",
+    "name": "F2L 35",
+    "moves": [
+      "(U' R U R') d (R' U' R)",
+      "U2 (R U' R') U' (F' U' F)",
+      "U M' U R U' r' R U' R'",
+      "U' l U' R U l' U R'"
+    ],
+    "white_face": {
+      "layer": "U",
+      "orientation": "F"
+    },
+    "edge": {
+      "layer": "E",
+      "position": "",
+      "sameColor": false
+    },
+    "case": "U2RU'R'U'F'U'F"
+  },
+  {
+    "id": 36,
+    "category": "F2L",
+    "name": "F2L 36",
+    "moves": [
+      "d (R' U' R) d' (R U R')",
+      "y U2 (L' U L) U (F U F')",
+      "U F' U' F U' (R U R')",
+      "U2 (R' F R F') U2 (R U R')"
+    ],
+    "white_face": {
+      "layer": "U",
+      "orientation": "R"
+    },
+    "edge": {
+      "layer": "E",
+      "position": "",
+      "sameColor": false
+    },
+    "case": "UF'U'FU'RUR'"
+  },
+  {
+    "id": 37,
+    "category": "F2L",
+    "name": "F2L 37",
+    "moves": [],
+    "white_face": {
+      "layer": "D",
+      "orientation": "D"
+    },
+    "edge": {
+      "layer": "E",
+      "position": "",
+      "sameColor": true
+    },
+    "case": "UU'"
+  },
+  {
+    "id": 38,
+    "category": "F2L",
+    "name": "F2L 38",
+    "moves": [
+      "(R' F R F') (R U' R' U) (R U' R' U2) (R U' R')",
+      "(R U' R') d (R' U2 R) U2' (R' U R)",
+      "(R U R') U2 (R U2 R') d (R' U' R)",
+      "(R2 U2) (F R2 F') (U2 R' U R')"
+    ],
+    "white_face": {
+      "layer": "D",
+      "orientation": "D"
+    },
+    "edge": {
+      "layer": "E",
+      "position": "",
+      "sameColor": false
+    },
+    "case": "R'FRF'RU'R'URU'R'U2RU'R'"
+  },
+  {
+    "id": 39,
+    "category": "F2L",
+    "name": "F2L 39",
+    "moves": [
+      "(R U' R') U' (R U R') U2 (R U' R')",
+      "y' (R' U' R) U2 (R' U R U') (R' U' R)",
+      "y (L' U' L) U2 (L' U L U')(L' U' L)",
+      "(R U R' U') (R U2 R') U' (R U R')",
+      "(R U2 R' U2) (R U2 R' U') R U R'",
+      "R U' R' F2 L' U' L U F2",
+      "(R2 U2) (R' U' R U') (R' U2 R')"
+    ],
+    "white_face": {
+      "layer": "D",
+      "orientation": "F"
+    },
+    "edge": {
+      "layer": "E",
+      "position": "",
+      "sameColor": false
+    },
+    "case": "RU'R'U'RUR'U2RU'R'"
+  },
+  {
+    "id": 40,
+    "category": "F2L",
+    "name": "F2L 40",
+    "moves": [
+      "(R U' R' U)(R U2' R') U (R U' R')",
+      "(R U R') U2 (R U' R' U)(R U R')",
+      "(R U2) (R U R' U) (R U2 R2')"
+    ],
+    "white_face": {
+      "layer": "D",
+      "orientation": "R"
+    },
+    "edge": {
+      "layer": "E",
+      "position": "",
+      "sameColor": false
+    },
+    "case": "RU'R'URU2'R'URU'R'"
+  },
+  {
+    "id": 41,
+    "category": "F2L",
+    "name": "F2L 41",
+    "moves": [
+      "(R U' R') d (R' U' R U') (R' U' R)",
+      "R U' R' U' R U' R' d R' U' R",
+      "y (L' U' L U)(L' U L) U2 (F U F')",
+      "(R U' R) y (U R U' R') y' R2",
+      "F2 (L' U' L U) y (L U' L)",
+      "R F (U R U' R' F') U' R'"
+    ],
+    "white_face": {
+      "layer": "D",
+      "orientation": "F"
+    },
+    "edge": {
+      "layer": "E",
+      "position": "",
+      "sameColor": true
+    },
+    "case": "RFURU'R'F'U'R'"
+  },
+  {
+    "id": 42,
+    "category": "F2L",
+    "name": "F2L 42",
+    "moves": [
+      "(R U' R' U) d (R' U' R U') (R' U R)",
+      "(R U' R' U2) y' (R' U' R U' R' U R)",
+      "(R U R' U') (R U' R') U2 (F' U' F)",
+      "y (L' U L) d' (L U L' U) (L U L')",
+      "R2 y (R U R' U') y' (R' U R')",
+      "(R U' R')(F' L' U2 L F)",
+      "R U (F R U R' U' F') R'"
+    ],
+    "white_face": {
+      "layer": "D",
+      "orientation": "R"
+    },
+    "edge": {
+      "layer": "E",
+      "position": "",
+      "sameColor": true
+    },
+    "case": "RUFRUR'U'F'R'"
+  }
+]

@@ -1,0 +1,41 @@
+<div class="techs-container">
+  <h2 class="techs-h2">
+    Filter
+  </h2>
+  <form novalidate >
+    <div class="permutationsWhiteFace" style="floet: left;">
+      <h3>White Face</h3>
+      <p>
+        <span>Layer</span>
+        <input type="radio" name="whiteFaceLayer" ng-model="$ctrl.criterias.whiteFace.layer" value="U"><label>U</label></input>
+        <input type="radio" name="whiteFaceLayer" ng-model="$ctrl.criterias.whiteFace.layer" value="D"><label>D</label></input>
+      </p>
+      <p>
+        <span>Orientation</span>
+        <input type="radio" name="whiteFaceOrientation" ng-model="$ctrl.criterias.whiteFace.orientation" value="U"><label>U</label></input>
+        <input type="radio" name="whiteFaceOrientation" ng-model="$ctrl.criterias.whiteFace.orientation" value="F"><label>F</label></input>
+        <input type="radio" name="whiteFaceOrientation" ng-model="$ctrl.criterias.whiteFace.orientation" value="R"><label>R</label></input>
+        <input type="radio" name="whiteFaceOrientation" ng-model="$ctrl.criterias.whiteFace.orientation" value="D"><label>D</label></input>
+      </p>
+    </div>
+    <div class="permutationsEgde" style="floet: left;">
+      <h3>Edge</h3>
+      <p>
+        <span>Layer</span>
+        <input type="radio" name="edgeLayer" ng-model="$ctrl.criterias.edge.layer" value="U"><label for="edgeLayerU">U</label>
+        <input type="radio" name="edgeLayer" ng-model="$ctrl.criterias.edge.layer" value="E"><label for="edgeLayerE">E</label>
+      </p>
+      <p>
+        <span>Position</span>
+        <input type="radio" name="edgePosition" ng-model="$ctrl.criterias.edge.position" value="L"><label>L</label>
+        <input type="radio" name="edgePosition" ng-model="$ctrl.criterias.edge.position" value="F"><label>F</label>
+        <input type="radio" name="edgePosition" ng-model="$ctrl.criterias.edge.position" value="R"><label>R</label>
+        <input type="radio" name="edgePosition" ng-model="$ctrl.criterias.edge.position" value="B"><label>B</label>
+        <input type="radio" name="edgePosition" ng-model="$ctrl.criterias.edge.position" value=""><label>none</label>
+      </p>
+    </div>
+  </form>
+  <div class="techs">
+    <ldez-permutation ng-repeat="permutation in $ctrl.permutations | filter:$ctrl.byCriteria" permutation="permutation"></ldez-permutation>
+  </div>
+</div>
